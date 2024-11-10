@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: #000;
+    
+}
+
+/* For WebKit browsers (Chrome, Safari, newer Edge) */
+.controls span::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+.controls span {
+  scrollbar-width: none; /* Hides scrollbar in Firefox */
+}
